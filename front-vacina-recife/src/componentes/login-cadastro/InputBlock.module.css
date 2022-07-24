@@ -1,0 +1,14 @@
+.input_block {
+    width: 238px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+input {
+    outline: none;
+}
+  
+label {
+    font-weight: bold;
+    display: block ;
+}

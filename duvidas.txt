@@ -1,0 +1,33 @@
+O que é um módulo em JS ?
+
+Diferença nos Exports: eu utilizaod mais o module.export = nomedavariavel que ser quer exportar. E para importar eu uso o require("caminho")
+
+O sequelize só trabalha com tabelas com nome no plural ? eu criei uum modelo Usuario utilizando o sequelize, pois eu tinha ja uma tabela Usuario no mysql, entretanto o sequelize criou um modelo Usuarios. Mas quando eu crio uma tabela Usuarios e crio um modelo Usuarios pelo sequelize, ele nao cria nenhuma tabela e sim utiliza a do mysql criada previamente
+
+NAO ESQUECER DE MUDAR SENHA DO BDE.
+
+o valor do tipo de dado DATATIME do tipo "2020-05-20 20:40:00",
+
+
+FUNCIONALIDADES
+
+Usuário
+
+- Cadastro e Login
+- Faz agendamento (Só pode fazer um agendamento por vez) - Formulário (Lembre-se que as vagas disponíveis são de acordo com o estoque de vacina)
+- Caso o usuário tente fazer um outro agendamento com um pendente, ao digitar o cpf, é vericado se existe um agenamento com aquele cpf e retorna uma msg de erro para o usuário
+- situação vacinação: histórico de vacina (vacinação e seu local e status: feito ou agendado). Para o agendado
+é possível fazer o cancelamento
+
+Adm
+
+- Cadastro e Login
+- lista todos os agendamentos no local e confirma vacinação do cliente passando o nome do antígeno.
+- alterar insumos pelo local (funcionalidade q mostra todos os insumos disponíveis do local selecionado e uma opção para alterar)
+
+
+BACK END FEITO!
+
+DUVIDA FRONT
+-> Preciso rotacionar a parte do login para a página.
+TIRAR A RESTRIÇÃO DE 11 CARACTERES DO CPF NO BD, ISSO FICA RUIM SE UM DIA ALGUEM QUERER TESTAR OU EU MESMO

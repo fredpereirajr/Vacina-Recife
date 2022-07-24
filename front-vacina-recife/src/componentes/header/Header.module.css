@@ -1,0 +1,37 @@
+.header {
+    background-color: rgb(0, 100, 100);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteiner_header{
+    width: 220px ;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 50px;
+    display: inline-block;
+}
+
+.headerList {
+    display: inline-block;
+}
+
+.headerList li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.headerList a {
+    display: block;
+    cursor: pointer;
+}
+
+.headerList li :hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+

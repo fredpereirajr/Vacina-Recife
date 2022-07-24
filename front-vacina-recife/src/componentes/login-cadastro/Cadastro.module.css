@@ -1,0 +1,18 @@
+#form_cadastro {
+    background-color: rgba(0, 94, 235, 0.63);
+    width: 450px;
+    max-height: 430px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px black;
+    position: relative;
+    top: 200px;
+}
+
+.title_cadastro {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
